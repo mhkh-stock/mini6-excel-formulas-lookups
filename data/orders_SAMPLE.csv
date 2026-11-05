@@ -1,0 +1,31 @@
+order_id,date,product_id,qty,customer,region
+ORD-001,2026-10-01,PR-04,4,Ayesha Malik,Saddar
+ORD-002,2026-10-24,PR-05,2,Fatima Khan,North Nazimabad
+ORD-003,2026-10-01,PR-02,2,Ayesha Malik,Saddar
+ORD-004,2026-10-20,PR-17,1,Ayesha Malik,North Nazimabad
+ORD-005,2026-10-15,PR-08,12,Usman Tariq,Gulshan
+ORD-006,2026-10-23,PR-06,6,Zainab Ali,Clifton
+ORD-007,2026-10-07,PR-05,5,Fatima Khan,Gulshan
+ORD-008,2026-10-04,PR-13,5,Zainab Ali,Clifton
+ORD-009,2026-10-24,PR-02,8,Fatima Khan,North Nazimabad
+ORD-010,2026-10-18,PR-03,4,Zainab Ali,Saddar
+ORD-011,2026-10-02,PR-03,3,Usman Tariq,Gulshan
+ORD-012,2026-10-28,PR-08,2,Hassan Nawaz,Clifton
+ORD-013,2026-10-21,PR-15,5,Bilal Hussain,Clifton
+ORD-014,2026-10-07,PR-12,4,Fatima Khan,Saddar
+ORD-015,2026-10-24,PR-18,3,Bilal Hussain,North Nazimabad
+ORD-016,2026-10-09,PR-13,10,Ayesha Malik,Clifton
+ORD-017,2026-10-08,PR-02,1,Zainab Ali,North Nazimabad
+ORD-018,2026-10-03,PR-09,3,Zainab Ali,Saddar
+ORD-019,2026-10-13,PR-16,8,Bilal Hussain,Clifton
+ORD-020,2026-10-08,PR-05,10,Usman Tariq,North Nazimabad
+ORD-021,2026-10-13,PR-19,5,Ayesha Malik,Saddar
+ORD-022,2026-10-16,PR-17,2,Ahmed Raza,Gulshan
+ORD-023,2026-10-21,PR-05,2,Hassan Nawaz,Gulshan
+ORD-024,2026-10-13,PR-13,12,Maryam Siddiqui,Clifton
+ORD-025,2026-10-28,PR-18,1,Fatima Khan,Clifton
+ORD-026,2026-10-04,PR-11,4,Hassan Nawaz,Saddar
+ORD-027,2026-10-01,PR-15,4,Bilal Hussain,Gulshan
+ORD-028,2026-10-27,PR-10,10,Ayesha Malik,Saddar
+ORD-029,2026-10-25,PR-12,2,Ahmed Raza,Clifton
+ORD-030,2026-10-01,PR-16,2,Zainab Ali,Clifton
