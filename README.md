@@ -1,5 +1,7 @@
 # Mini #6 — Excel Advanced Formulas & Lookup Pack
 
+**Repo:** https://github.com/mhkh-stock/mini6-excel-formulas-lookups
+
 **What it teaches:** the ten formulas that turn an Excel user from
 a data-typist into a data analyst — lookups that fill themselves in,
 conditional sums that answer questions without pivot tables, and
