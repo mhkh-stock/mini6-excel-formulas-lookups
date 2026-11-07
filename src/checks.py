@@ -82,6 +82,12 @@ check("Lab COUNTIFS expects Clifton count",
 check("Lab AVERAGEIFS expects 5004.44", lab_expected.get("AVERAGEIFS") == 5004.44)
 check("Lab CONCAT expects ORD-001 - Washing Powder 3kg",
       lab_expected.get("CONCAT") == "ORD-001 - Washing Powder 3kg")
+check("Lab IFS expects 0.1 for quantity 12",
+      lab_expected.get("IFS") == 0.1)
+check("Lab IF (nested) expects Small for quantity 4",
+      lab_expected.get("IF (nested)") == "Small")
+check("Lab TEXT expects 01-Oct-2026",
+      lab_expected.get("TEXT") == "01-Oct-2026")
 check("Lab formulas are live (all start with =)",
       all(str(lab.cell(row=i, column=3).value).startswith("=") for i in range(2, 12)))
 check("workbook file is non-trivial", XLSX.stat().st_size > 8000)

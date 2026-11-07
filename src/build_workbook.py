@@ -11,6 +11,7 @@ strings, rather than trusting cached values that do not exist.
 """
 
 import csv
+from datetime import date
 from pathlib import Path
 
 from openpyxl import Workbook
@@ -65,7 +66,9 @@ ord_ws.append(["OrderID", "Date", "ProductID", "Qty", "Customer", "Region",
                "Category (INDEX+MATCH)", "Discount % (IFS)", "Net Total"])
 for i, o in enumerate(orders, start=2):
     ord_ws.cell(row=i, column=1, value=o["order_id"])
-    ord_ws.cell(row=i, column=2, value=o["date"])
+    y, m, d = (int(x) for x in o["date"].split("-"))
+    date_cell = ord_ws.cell(row=i, column=2, value=date(y, m, d))
+    date_cell.number_format = "yyyy-mm-dd"
     ord_ws.cell(row=i, column=3, value=o["product_id"])
     ord_ws.cell(row=i, column=4, value=int(o["qty"]))
     ord_ws.cell(row=i, column=5, value=o["customer"])
